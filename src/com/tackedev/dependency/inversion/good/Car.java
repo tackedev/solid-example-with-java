@@ -4,7 +4,7 @@ public class Car {
     private final Engine engine;
 
     public Car() {
-        engine = new PetrolEngine();
+        this.engine = new PetrolEngine();
     }
 
     public void run() {
