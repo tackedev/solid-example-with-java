@@ -1,9 +1,9 @@
 package com.tackedev.dependency.inversion.bad;
 
-public class Car {
+public class PetrolCar {
     private final PetrolEngine engine;
 
-    public Car() {
+    public PetrolCar() {
         engine = new PetrolEngine();
     }
 
