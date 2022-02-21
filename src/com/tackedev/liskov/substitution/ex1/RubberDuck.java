@@ -14,6 +14,6 @@ public class RubberDuck extends Duck {
 
     @Override
     public void walk() {
-        throw new UnsupportedOperationException("Rubber Duck doesn't have any leg to walk");
+        throw new UnsupportedOperationException("Tao không biết đi, được không!");
     }
 }

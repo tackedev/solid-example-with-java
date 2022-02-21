@@ -20,4 +20,9 @@ public class DatabaseService {
         System.out.println("Get connection to: " + this.connectionString);
         System.out.println("Save " + user.toString() + " to MySQL Database");
     }
+
+    public void saveLaptop(User user) {
+        System.out.println("Get connection to: " + this.connectionString);
+        System.out.println("Save " + user.toString() + " to MySQL Database");
+    }
 }

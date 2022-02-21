@@ -13,7 +13,5 @@ public abstract class Duck {
         System.out.println("Quack quack!!!");
     }
 
-    public void walk() {
-        System.out.println("Walk by 2 legs");
-    }
+    public abstract void walk();
 }

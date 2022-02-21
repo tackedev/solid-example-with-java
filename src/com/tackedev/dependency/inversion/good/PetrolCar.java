@@ -1,16 +1,13 @@
 package com.tackedev.dependency.inversion.good;
 
-public class Car {
+public class PetrolCar {
     private Engine engine;
 
-    public Car() {
+    public PetrolCar() {
+        this.engine = new PetrolEngine();
     }
 
     public void run() {
         engine.run();
-    }
-
-    public void registerEngine(Engine engine) {
-        this.engine = engine;
     }
 }

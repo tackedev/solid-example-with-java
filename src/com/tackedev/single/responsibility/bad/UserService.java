@@ -8,7 +8,7 @@ import java.util.Properties;
 public class UserService {
 
     public void registerUser(User user) {
-        // save user to database
+        // B1: save user to database
         final String dbUsername = "tackedev";
         final String dbPassword = "tackeditu";
         final String connectionString = "jdbc:mysql://localhost:3306/Solid" +
@@ -17,7 +17,7 @@ public class UserService {
         System.out.println("Get connection to: " + connectionString);
         System.out.println("Save " + user.toString() + " to MySQL Database");
 
-        // send mail to user for verification
+        // B2: send mail to user for verification
         final String fromEmail = "tackedev@dsc.com";
         final String password = "tackeditu";
 

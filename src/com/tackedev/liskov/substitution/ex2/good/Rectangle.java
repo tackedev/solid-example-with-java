@@ -1,6 +1,6 @@
-package com.tackedev.liskov.substitution.ex2;
+package com.tackedev.liskov.substitution.ex2.good;
 
-public class Rectangle {
+public class Rectangle extends Shape {
     private double height;
     private double weight;
 
@@ -9,6 +9,7 @@ public class Rectangle {
         this.weight = weight;
     }
 
+    @Override
     public double getArea() {
         return this.height * this.weight;
     }

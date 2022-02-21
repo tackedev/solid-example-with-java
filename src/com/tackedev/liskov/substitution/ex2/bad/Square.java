@@ -1,4 +1,4 @@
-package com.tackedev.liskov.substitution.ex2;
+package com.tackedev.liskov.substitution.ex2.bad;
 
 public class Square extends Rectangle {
 
